@@ -3,7 +3,7 @@ import { makeFullName } from '@/shared/lib/full-name-format';
 import { PageTitle } from '@/shared/ui/page-title';
 import { ProfileCard } from '@/widgets/profile-card';
 
-export const ProfilePage = async () => {
+export const Profile = async () => {
     const profile = await userApi.userProfileQuery();
 
     if (!profile) {

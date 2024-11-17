@@ -5,7 +5,7 @@ export const ENV = EnvSchema.parse({
 });
 
 export const ENV_PRIVATE = EnvPrivateSchema.parse({
-    NEXT_AUTH_SECRET: process.env.NEXT_AUTH_SECRET,
+    NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
     NEXT_JWT_REFRESH_TOKEN_LIFETIME_IN_SECONDS:
         process.env.NEXT_JWT_REFRESH_TOKEN_LIFETIME_IN_SECONDS,
     NEXT_JWT_ACCESS_TOKEN_LIFETIME_IN_SECONDS:

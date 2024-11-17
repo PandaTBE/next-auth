@@ -22,7 +22,7 @@ export const UserScheme = z.object({
 export const UserProfileScheme = z.object({
     id: z.number(),
     user: z.number(),
-    location: z.string(),
+    location: z.string().nullable(),
 });
 
 export const UserProfileUpdateDtoScheme = z.object({

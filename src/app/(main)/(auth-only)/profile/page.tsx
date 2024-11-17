@@ -1,7 +1,7 @@
-import { ProfilePage } from '@/pages/profile-page';
+import { Profile } from '@/pages/profile';
 
 const Page = () => {
-    return <ProfilePage />;
+    return <Profile />;
 };
 
 export default Page;

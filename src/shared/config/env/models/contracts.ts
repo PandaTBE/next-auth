@@ -5,7 +5,7 @@ export const EnvSchema = z.object({
 });
 
 export const EnvPrivateSchema = z.object({
-    NEXT_AUTH_SECRET: z.string().optional(),
+    NEXTAUTH_SECRET: z.string().optional(),
     NEXT_JWT_REFRESH_TOKEN_LIFETIME_IN_SECONDS: z.string().optional(),
     NEXT_JWT_ACCESS_TOKEN_LIFETIME_IN_SECONDS: z.string().optional(),
 });

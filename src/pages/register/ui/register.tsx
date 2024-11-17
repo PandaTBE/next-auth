@@ -1,6 +1,6 @@
 import { RegisterCard } from '@/widgets/register-card';
 
-export const RegisterPage = () => {
+export const Register = () => {
     return (
         <div className="flex justify-center">
             <RegisterCard />

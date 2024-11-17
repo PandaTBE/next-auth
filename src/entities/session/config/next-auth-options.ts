@@ -4,7 +4,7 @@ import { userApi, userTypes } from '@/entities/user/@x/session';
 import { ENV_PRIVATE } from '@/shared/config/env/config/env';
 
 export const NEXT_AUTH_OPTIONS: NextAuthOptions = {
-    secret: ENV_PRIVATE.NEXT_AUTH_SECRET,
+    secret: ENV_PRIVATE.NEXTAUTH_SECRET,
     pages: { signIn: '/login', error: '/login' },
     session: {
         strategy: 'jwt',

@@ -1,5 +1,5 @@
 import { sessionConfig } from '@/entities/session';
-import { RegisterPage } from '@/pages/register-page';
+import { Register } from '@/pages/register';
 import { PATH_KEYS } from '@/shared/config/path-keys';
 import { getServerSession } from 'next-auth';
 import { redirect } from 'next/navigation';
@@ -11,7 +11,7 @@ const Page = async () => {
         redirect(PATH_KEYS.home());
     }
 
-    return <RegisterPage />;
+    return <Register />;
 };
 
 export default Page;
